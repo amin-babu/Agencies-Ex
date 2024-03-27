@@ -38,7 +38,7 @@
 
 /* styling part-2 */
 
-section{
+.main-container{
   background-color: #362B6F;
   height: 507px;
 }
@@ -51,11 +51,11 @@ section{
 
 .part1{
   margin-top: 50px;
-  width: 500px;
+  width: 530px;
 }
 
 .part1 h1{
-  font-family: 'Lucida Sans', sans-serif;
+  font-family:verdana;
   font-weight:bolder;
   font-size: 38px;
   margin-bottom: 28px;
@@ -69,25 +69,41 @@ section{
   color: white;
 }
 
+
+
 .btn1{
   border: none;
   padding: 12px 21px;
   border-radius: 20px;
-  margin-right: 5px;
+  margin-right: 7px;
   background-color: white;
   color: #362B6F;
   font-weight: bold;
+  transition: 0.3s;
+  box-sizing: border-box;
+}
+
+.btn1:hover{
+  background: transparent;
+  color: white;
+  border: 2px solid white;
 }
 
 .btn2{
   border: none;
   padding: 12px 21px;
   border-radius: 20px;
-  margin-right: 3px;
   background: transparent;
   color: white;
   font-weight: bold;
   border: 2px solid white;
+  transition: 0.3s;
+  box-sizing: border-box;
+}
+
+.btn2:hover{
+  background-color: white;
+  color: #362B6F;
 }
 
 .part2 img{
@@ -100,4 +116,6 @@ section{
 
 .part2 img:hover{
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transition: 0.3s;
+
 }
