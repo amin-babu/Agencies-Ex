@@ -1,0 +1,103 @@
+* {margin: 0; padding: 0;}
+
+.header-container{
+  display: flex;
+  padding: 25px 95px;
+  justify-content: space-between;
+  background-color: #362B6F;
+}
+
+.logo a{
+  text-decoration: none;
+  font-size: 35px;
+  font-family: 'Lucida Sans', sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.nav-menu a{
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 32px;
+  font-family: 'Lucida Sans', sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.nav-menu button{
+  font-size: 15px;
+  margin-left: 32px;
+  font-family: 'Lucida Sans', sans-serif;
+  font-weight: bold;
+  border: none;
+  padding: 12px 21px;
+  background-color: white;
+  border-radius: 20px;
+  color: #362B6F;
+}
+
+/* styling part-2 */
+
+section{
+  background-color: #362B6F;
+  height: 507px;
+}
+
+.main-content{
+  display: flex;
+  padding: 65px 95px;
+  justify-content: space-between;
+}
+
+.part1{
+  margin-top: 50px;
+  width: 500px;
+}
+
+.part1 h1{
+  font-family: 'Lucida Sans', sans-serif;
+  font-weight:bolder;
+  font-size: 38px;
+  margin-bottom: 28px;
+  color: white;
+}
+
+.part1 p{
+  font-family: 'Lucida Sans', sans-serif;
+  line-height: 22px;
+  margin-bottom: 25px;
+  color: white;
+}
+
+.btn1{
+  border: none;
+  padding: 12px 21px;
+  border-radius: 20px;
+  margin-right: 5px;
+  background-color: white;
+  color: #362B6F;
+  font-weight: bold;
+}
+
+.btn2{
+  border: none;
+  padding: 12px 21px;
+  border-radius: 20px;
+  margin-right: 3px;
+  background: transparent;
+  color: white;
+  font-weight: bold;
+  border: 2px solid white;
+}
+
+.part2 img{
+  height: 368px;
+  width: 490px;
+  border: 1px solid white;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.part2 img:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
