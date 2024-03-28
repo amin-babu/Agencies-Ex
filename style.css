@@ -127,13 +127,15 @@ section{
 
 .p-main{
   padding: 45px 40px;
+  box-sizing: border-box;
 }
 
 .program-container{
   background-color: white;
   padding: 20px 65px;
   border-radius: 10px;
-  height: 200px;
+  height: 575px;
+  box-sizing: border-box;
 }
 
 .p-heading h1{
@@ -148,11 +150,12 @@ section{
 .course-content{
   display: flex;
   background-color: #EAECF0;
-  width: 250px;
+  width: auto;
   padding: 8px 12px;
   border-radius: 6px;
-  border: 1px solid grey;
+  border: 0.2px solid grey;
   transition: 0.4s;
+  font-size: 12px;
 }
 
 .course-content:hover{
@@ -166,6 +169,11 @@ section{
   border-radius: 50%;
   margin-right: 7px;
   border: 1px solid grey;
+  font-size: 9px;
+}
+
+.c-icon i:hover{
+  color: #362B6F;
 }
 
 .c-writen a{
@@ -186,19 +194,101 @@ section{
 .c-li li{
   list-style: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 12px;
+  font-size: 9px;
   margin-top: 4px;
   margin-right: 7px;
 }
 
 .c-li i{
   margin-left: 2px;
-  margin-top: 10px;
+  margin-top: 8px;
   margin-right: 4px;
-  font-size: 4px;
+  font-size: 3px;
 }
 
 .parent-course-content{
   display: flex;
   justify-content: space-between;
 }
+
+/* image box design */
+
+.img-box1{
+ font-size: 0;
+}
+
+.img-box1 img{
+  margin-top: 23px;
+  height: 150px;
+  width: 260px;
+  border-radius: 8px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.img-option{
+  padding: 9px;
+  width: 260px;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
+  box-sizing: border-box;
+  background-color: #F9F9FA;
+}
+
+.img-option a{
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 4px 8px;
+  background-color: #EAECF0;
+  color: black;
+  font-size: 11px;
+  border-radius: 4px;
+}
+
+.img-title{
+  width: 260px;
+  height: 112px;
+  box-sizing: border-box;
+  border-left: 0.5px solid grey;
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding: 7px 10px;
+}
+
+.img-title h3{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 25px;
+  font-size: 18px;
+}
+
+.img-btn{
+  width: 260px;
+  height: 60px;
+  box-sizing: border-box;
+  border-left: 0.5px solid grey;
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
+  background-color: #F9F9FA;
+  border-radius: 8px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+
+}
+
+.img-btn button{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 9px 62px;
+  margin-left: 13px;
+  margin-top: 11px;
+  background-color: #EAECF0;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.img-container{
+  display: flex;
+  justify-content: space-between;
+}
+
