@@ -132,10 +132,11 @@ section{
 
 .program-container{
   background-color: white;
-  padding: 20px 65px;
+  padding: 30px 65px;
   border-radius: 10px;
-  height: 575px;
+  height: 600px;
   box-sizing: border-box;
+  border: 1px solid grey;
 }
 
 .p-heading h1{
@@ -147,6 +148,10 @@ section{
   margin-top: 10px;
 }
 
+.p-heading h1 i{
+  color: #362B6F;
+}
+
 .course-content{
   display: flex;
   background-color: #EAECF0;
@@ -155,7 +160,7 @@ section{
   border-radius: 6px;
   border: 0.2px solid grey;
   transition: 0.4s;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .course-content:hover{
@@ -169,7 +174,7 @@ section{
   border-radius: 50%;
   margin-right: 7px;
   border: 1px solid grey;
-  font-size: 9px;
+  font-size: 14px;
 }
 
 .c-icon i:hover{
@@ -290,5 +295,6 @@ section{
 .img-container{
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
