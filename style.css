@@ -258,12 +258,18 @@ section{
 
 .img-option a{
   text-decoration: none;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
   padding: 4px 8px;
   background-color: #EAECF0;
   color: black;
-  font-size: 11px;
+  font-size: 10px;
   border-radius: 4px;
+  font-weight: bold;
+}
+
+.img-option a i{
+  
+  margin-right: 1px;
 }
 
 .img-title{
