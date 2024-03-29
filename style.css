@@ -186,6 +186,7 @@ section{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: black;
   transition: 0.4s;
+  font-size: 12px;
 }
 
 .c-writen a:hover{
@@ -200,13 +201,13 @@ section{
   list-style: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 9px;
-  margin-top: 4px;
+  margin-top: 5px;
   margin-right: 7px;
 }
 
 .c-li i{
   margin-left: 2px;
-  margin-top: 8px;
+  margin-top: 9px;
   margin-right: 4px;
   font-size: 3px;
 }
@@ -218,12 +219,26 @@ section{
 
 /* image box design */
 
+.card-hover{
+  height: 359px;
+  width: 260px;
+  border-radius: 8px;
+  margin-top: 25px;
+  z-index: 1;
+  border: 1px solid white;
+
+}
+
+.card-hover:hover{
+  border: 1px solid #667085;
+  border-radius: 8px;
+}
+
 .img-box1{
  font-size: 0;
 }
 
 .img-box1 img{
-  margin-top: 23px;
   height: 150px;
   width: 260px;
   border-radius: 8px;
