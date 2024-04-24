@@ -21,6 +21,10 @@
   color: white;
 }
 
+.menu-icon{
+  display: none;
+}
+
 .nav-menu button{
   font-size: 14px;
   margin-left: 32px;
