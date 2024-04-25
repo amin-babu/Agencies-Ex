@@ -54,7 +54,7 @@
 /* programme section */
 
 .program-container{
-  
+  padding: 20px;
 }
 
 .p-main{
@@ -65,4 +65,91 @@
 .p-heading > h1{
   font-size: 25px;
   margin-top: 0;
+}
+
+/* Course Content */
+
+.parent-course-content{
+  display: flex;
+  flex-direction: column;
+}
+
+.program-container{
+  margin-top: 70px;
+  height: auto;
+}
+
+.img-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.card-hover{
+  margin: 20px auto;
+  
+}
+
+.course-content{
+  margin: 0 auto;
+  margin-bottom: 10px;
+  width: 280px;
+}
+
+/* image course section */
+
+.img-container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+/* goal section */
+
+.goal-head > h2{
+  font-size: 30px;
+  font-family: sans-serif;
+}
+.goal-head > p{
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+.table-content{
+  height: 200px;
+  width: 330px;
+  margin: 15px auto;
+}
+
+.table-content img{
+  margin-top: 2px;
+}
+
+/* footer section */
+
+.footer-container{
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.footer-icons > i{
+  font-size: 15px;
+}
+
+.footer-icons{
+  margin-bottom: 20px;
+}
+
+.colum-part2{
+  margin-top: 20px;
+}
+
+.last-column{
+  margin-top: 20px;
+}
+
+.copy{
+  margin: 0 auto;
 }
