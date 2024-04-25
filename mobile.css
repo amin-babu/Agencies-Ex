@@ -31,6 +31,7 @@
 .part1{
   width: 100%;
   margin-top:30px; 
+  margin-bottom: 10px;
 }
 
 .part1 > h1{
@@ -39,16 +40,19 @@
 
 .part1 > button{
   font-size: 12px;
+
 }
 
 .part2 > img{
-  margin-top: 45px;
-  height: 250px;
+  margin-top: 65px;
+  height: 220px;
+  margin: 30px auto;
+  margin-bottom: 10px;
 }
 
 .part2 > img:hover{
   transition: 0.5s;
-  height: 240px;
+  height: 210px;
 }
 
 /* programme section */
