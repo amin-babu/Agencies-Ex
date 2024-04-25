@@ -22,16 +22,21 @@
 
 /* car section */
 
+.main-container{
+  height: 580px;
+}
+
 .main-content{
   display: flex;
   flex-direction: column;
   padding: 20px 15px;
+  margin-bottom: 10px;
 }
 
 .part1{
   width: 100%;
   margin-top:30px; 
-  margin-bottom: 10px;
+  margin-bottom: 25px;
 }
 
 .part1 > h1{
@@ -45,9 +50,8 @@
 
 .part2 > img{
   margin-top: 65px;
-  height: 220px;
-  margin: 30px auto;
-  margin-bottom: 10px;
+  height: 210px;
+  margin: 10px auto;
 }
 
 .part2 > img:hover{
@@ -62,7 +66,7 @@
 }
 
 .p-main{
-  margin-top: 80px;
+  margin-top: 90px;
   padding: 20px 15px;
 }
 
